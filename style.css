@@ -933,7 +933,7 @@ select:focus {
       width: 0;
     }
     to {
-      width: auto;
+      width: 100%;
     }
   }
 
