@@ -913,4 +913,28 @@ select:focus {
     word-break: break-all;
     white-space: pre-wrap;
 }
+.green {
+    color: green;
+}
+.orange{
+    color: orange;
+}
+.tagline-reveal {
+    display:inline-block;
+    white-space: nowrap;
+    /*border-right: 3px solid rgb(19, 19, 19);  Simulates the typing cursor */
+    font-weight: bold;
+    overflow: hidden;
+    animation: typing-tagline 4s steps(30, end) forwards, blink-tagline 0.75s step-end infinite;
+  }
+/* Keyframes for typing */
+@keyframes typing-tagline {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
 
+  
